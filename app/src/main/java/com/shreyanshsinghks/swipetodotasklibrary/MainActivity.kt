@@ -25,23 +25,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             SwipeToDoTaskLibraryTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Surface(modifier = Modifier.padding(innerPadding)) {
-                        val items = listOf("Item 1", "Item 2", "Item 3")  // Example list
-
-                        LazyColumn {
-                            items(items) { item ->
-                                SwappableCard(
-                                    item = item,
-                                    onSwipeLeft = { Unit },
-                                    onSwipeRight = { Unit },
-                                    rightIcon = {Icons.Rounded.Create},
-                                    leftIcon = {Icons.Rounded.Add}
-                                ) {
-                                    // Card content
-                                    Text(text = "hello")
-                                }
-                            }
-                        }
+                    Surface(modifier = Modifier.padding(innerPadding)){
+                        SwappableCardList()
                     }
 
                 }
