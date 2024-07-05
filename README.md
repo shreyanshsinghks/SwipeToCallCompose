@@ -6,6 +6,13 @@
 #SwipeToCall feature jetpack compose
 SwipeToTask is a sleek, customizable swipeable card component for Jetpack Compose. It enables users to perform actions by swiping cards left or right, perfect for task management, item deletion, or any other swipe-based interaction.
 
+<img src="https://github.com/shreyanshsinghks/SwipeToCallCompose/assets/120413995/350d29ad-e64f-4eef-aeb1-20cb3f750930" alt="Screenshot 2024-07-05 223921" width="300">
+
+<img src="https://github.com/shreyanshsinghks/SwipeToCallCompose/assets/120413995/5bc491ad-00c8-40ce-af97-8ae73c7a4906" alt="Screenshot 2024-07-05 223955" width="300">
+
+<img src="https://github.com/shreyanshsinghks/SwipeToCallCompose/assets/120413995/b826eb59-1c77-47a0-bf3c-5b9b804c9d03" alt="Screenshot 2024-07-05 223937" width="300">
+
+
 ![Demo GIF](link_to_demo_gif.gif)
 
 ## Features ✨
